@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" type="module"></script>
+
+    <title>Donttap</title>
+  </head>
+  <body>
+    <div id="additional-panel" class="flex">
+      <button id="records-btn">RECORDS</button>
+      <div class="records-wrapper">
+        <span>FRENZY:</span>
+        <ul id="records-list"></ul>
+      </div>
+    </div>
+    <div id="game-panel">
+      <div id="game-stats-panel" class="flex">
+        <div id="game-stats-timer" class="flex">30</div>
+        <div id="game-stats-score" class="flex">0</div>
+        <div id="game-stats-score-2">
+          <span>HI-SCORE</span>
+          <span id="game-stats-top-score">-</span>
+        </div>
+      </div>
+      <div id="game-grid-wrapper"></div>
+      <div id="game-message-panel" class="flex">
+        <span id="game-message-speed">Press a key to start</span>
+      </div>
+    </div>
+  </body>
+</html>
