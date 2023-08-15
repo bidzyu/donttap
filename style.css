@@ -82,8 +82,8 @@ body {
   align-items: center;
   background-color: #fff;
   grid-template-rows: 1fr 4fr 1fr;
-  height: min(100vh, 120vw);
-  width: min(65vh, 80vw);
+  height: min(100vh, 160vw);
+  width: min(65vh, 100vw);
   position: relative;
   font-size: min(4vh, 5vw);
 }
